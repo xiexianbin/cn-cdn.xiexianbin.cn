@@ -66,17 +66,17 @@ blockquote p {
   background: transparent;}
 
 /* subnva bar */
-.subnavbar-nav > li > a {
+.navbar-nav .subnavbar-nav > li > a {
   color: inherit;
   font-weight: 450;
   height: 40px;}
 
-.subnavbar-nav > li:hover > a, .navbar-nav > li.active > a {
+.navbar-nav .subnavbar-nav > li:hover > a, .navbar-nav .subnavbar-nav > li.active > a {
   height: 40px;
   border-bottom: 3px solid #0084b4;
   transition: all .15s ease-in-out;}
 
-.subnavbar-nav .active a {
+.navbar-nav .subnavbar-nav .active a {
   color: inherit;
   background-color: transparent;
   background: transparent;}
